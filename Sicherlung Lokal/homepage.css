@@ -1,0 +1,70 @@
+/*Kopf der Seite*/
+
+body
+{
+  background-color: black;
+  scroll-behavior: auto;
+}
+p
+{
+  color: white;
+}
+.Header
+{
+  margin: auto 0;
+  float:center;
+  margin-right: 20px;
+  color:white;
+}
+.Header ul li
+{
+  list-style-type:none;
+  padding: 5px;
+  font-size: 10px;
+  float: center;
+  border-bottom: solid;
+  border-right: solid;
+  border-left:solid;
+  text-align: center;
+  border-width: 1px;
+  color:white;
+}
+.Header a
+{
+  text-decoration:none;
+  color: white;
+  font-family: Damion;
+  font-size: 15px;
+}
+/* Ende Seitenkopf*/
+/*Auswahlelemente*/
+
+.Auswahlelement
+{
+  float:center;
+  text-align:center;
+  padding-bottom: 20px;
+  border-bottom: solid;
+  border-color: white;
+  position: relative;
+  width: 100%;
+
+}
+.Auswahlelement img
+{
+  display: bock;
+  text-align: center;
+}
+.Auswahlelement span
+{
+position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ color: #fff;
+ height: 2.5em;
+ line-height: 2.5em;
+ font-family: Damion;
+ background: #404040; /* Fallback IE 6-8 */
+ background-color: rgba(40, 40, 40, 0.6);
+}
